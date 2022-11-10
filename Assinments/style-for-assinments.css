@@ -1,0 +1,582 @@
+
+body {
+/* 
+    font-family: 'Cairo', cursive;
+    font-size: 30px; */
+}
+
+                /* Start From # To # */
+                
+div div div h2 p{
+
+    margin: 5px 0 ;
+    display: inline-block;
+}
+
+div div div h2{
+
+    width: fit-content;
+    height: fit-content;
+    background-color: #EEE;
+    border-left: black solid 4px;
+}
+
+.f{
+
+    margin-left: 5px;
+}
+
+.n1 , .n2{
+
+    color: black;
+}
+
+.n2{
+
+    margin-right: 5px;
+}
+
+.t , .f {
+
+    color: red;
+}                
+
+                /* End From # To # */
+
+.dtitle{
+
+    background-color: #EEE;
+    outline: solid 10px #EEE;
+    border-left: 4px blue solid;
+    margin: 10px;
+}
+
+.stitle{
+
+    padding: 30px;
+    margin: 30px auto;
+    width: 170px;
+    border-bottom: 4px red solid;
+}
+
+.assign-1-shape-1{
+    
+    color: white;
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: blueviolet;
+}
+
+
+.assign-1-shape-2{
+
+    color: white;
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: hsla(271, 76%, 53%, 0.4);
+}
+
+
+.assign-1-shape-3{
+
+    color: white;
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: rgba(138, 44, 226 , 0.1);   
+}
+
+.assign-2-shape-1{
+
+    background-color: #EEE;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+    border: 5px red solid;
+    outline: 5px black solid;
+    margin-right: 20px;
+}
+
+.assign-2-shape-2{
+
+    background-color: #EEE;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue green;
+    outline: 5px black solid;
+    margin-right: 20px;
+}
+
+.assign-2-shape-3{
+
+    background-color: #EEE;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red rebeccapurple green yellow;
+    outline: 5px black solid;
+    margin-right: 20px;
+}
+
+.assign-3-shape-1{
+
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #EEE;
+    border-left: 10px red solid;
+    outline: #EEE solid 10px;
+}
+
+.assign-3-shape-2{
+
+    width: 400px;
+    padding: 30px;
+    margin: 20px;
+    visibility: hidden;
+}
+
+.assign-3-shape-3{
+
+    width: 400px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #EEE;
+    border-left: 10px blue solid;
+    outline: #EEE solid 10px;
+}
+
+div div div div .title{
+
+    color: red;
+}
+
+div div div .title{
+
+    color: blue;
+}
+
+div div div p , div div .title{
+
+    color: green;
+}
+
+.title-one , .title-two , .title-three , .title-four{
+
+    background-color: rgb(179, 46, 46);
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    max-width: 400px;
+    width: fit-content;
+    overflow-y: hidden;
+
+}
+
+.title-four{
+
+    max-height: 30px;
+}
+
+.ews {
+
+    padding: 20px;
+    margin: 20px;
+    background-color: #EEE;
+    font-size: 100px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: black;
+    text-shadow: 3.5px 2px 0 rgb(221, 16, 16) , 6.9px 8px 0 rgb(68, 49, 241) , 10px 12px 0 rgb(183, 0, 255);
+}
+
+.one {
+
+    text-transform: uppercase;
+}
+
+.two {
+
+    text-transform: capitalize;
+}
+
+.three {
+
+    text-transform: lowercase;
+}
+
+.one , .two , .three {
+
+    background-color: #EEE;
+    padding: 20px;
+    margin: 10px;
+    font-size: 50px;
+}
+
+.lorem-assin {
+
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #EEE;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.elzero-botton {
+
+    background-color: #009688;
+    margin: 15px;
+    width: fit-content;
+    border-bottom: 10px solid #00514a;
+}
+
+.elzero-botton a {
+
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+.ldi{
+
+    border: #ff5722 4px solid;
+    width: 500px;
+}
+
+.ldi p {
+
+    /* outline: 20px white solid; */
+    background-color: #EEE;
+    padding: 15px;
+    margin: 20px 20px;
+    text-align: center;
+    border: #ff5722 4px solid;
+}
+
+.div00 .one {
+
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+}
+
+.div00 .two {
+
+    text-transform: capitalize;
+    font-family: 'Cairo';
+}
+
+.div00 .three {
+
+    text-transform: capitalize;
+    font-family: 'Jomhuria';
+}
+
+/* ---------------------------------------------- */
+
+.div01 .one1 {
+
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.div01 .two1 {
+
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.div01 .three1 {
+
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.clear {
+
+    clear: both;
+}
+
+.parent {
+
+    width: 800px;
+    background-color: #EEE;
+    margin-left: 20px;
+}
+
+.parent div {
+
+    padding: 15px 0;
+    text-align: center;
+    background-color: #ddd;
+    float: left;
+    margin: 15px 0 0 15px;
+}
+
+.full {
+
+    text-transform: capitalize;
+    width: calc(100% - 30px);
+}
+
+.parent .first-sf {
+
+    width: calc((100% - 60px) / 3);
+}
+
+.parent .second-sf {
+
+    width: calc((100% - 45px) / 2);
+}
+
+.parent .third-sf {
+
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}
+
+/* 
+    Content Width Is: 800px
+    5 Spaces 15px * 5 ==> 75px From Content Width
+    725px Available Space 
+    4 Elements . The width Is: 725px / 4
+*/
+
+.lol-1 div {
+
+    margin: 20px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b3b3b3;
+    color: black;
+}
+
+.lol-1 .one {
+
+    background-color: rgba(179, 179, 179 , 0.1);
+}
+
+.lol-1 .two {
+
+    background-color: rgba(179, 179, 179);
+    opacity: 0.1;
+}
+
+.as-33{
+
+    position: relative;
+    background-color: #EEE;
+    height: 200px;
+}
+
+.as-33 div {
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.as-33 .red {
+
+    background-color: #f44336;
+    z-index: 6;
+    top: 50px;
+    left: 50px;
+}
+
+.as-33 .green {
+
+    background-color: #009688;
+    z-index: 5;
+    top: 35px;
+    left: 35px;
+}
+
+.as-33 .blue {
+
+    background-color: #03a9f4;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+
+.as-33 .black {
+
+    background-color: #333333;
+    z-index: 1;                        /*  Need help here ( ͡• ͜ʖ ͡• )  */
+}
+
+                /* Another Thing */
+.as-34 {
+
+    width: 400px;
+    background-color: #EEE;
+    margin: 15px auto;
+    padding: 25px;
+    border-top: solid 3.6px #f44336;
+    border-bottom: solid 3.6px #f44336;
+    border-right: solid 3.6px #2196f3;
+    border-left: solid 3.6px #2196f3;
+    position: relative;
+}
+
+.as-34 span {
+
+    background-color: #2196f3;
+    padding: 2px 9px;
+    color: white;
+    position: absolute;
+}
+
+.top-left {
+
+    left: -11px;
+    top: -11px;
+    border-right: solid 3.6px #f44336;
+}
+
+.bottom-left {
+
+    left: -11px;
+    bottom: -11px;
+    border-right: solid 3.6px #f44336;
+}
+
+.top-right {
+
+    right: -11px;
+    top: -11px;
+    border-left: solid 3.6px #f44336;
+}
+
+.bottom-right {
+
+    right: -11px;
+    bottom: -11px;
+    border-left: solid 3.6px #f44336;
+}
+
+                /* Another Thing */
+.ul-parent {
+
+    width: 400px;
+    margin: 15px auto;
+}
+
+.as-35 .ul-parent li {
+
+    background-color: #EEE;
+    padding: 10px;
+    margin: 10px;
+}
+
+.as-35 .ul-parent .ok {
+
+    list-style-type: none;
+}
+
+.as-35 .ul-parent li ol li {
+
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+}
+
+.as-35 .ul-parent li ul li {
+
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+.as-35 .ul-parent li ul {
+
+    padding-left: 0;
+}
+                        /* Another Thing */
+
+
+.table-t {
+
+    width: 700px;
+    margin: 10px auto;
+    border-bottom: #37aca1 solid 4px;
+}
+        /* - HEAD'S CELLS */
+
+.table-t thead tr td {
+
+    color: white;
+    background-color: #404040;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+            /* - BODY'S CELLS */
+
+                /*  - IMGS  */
+
+.table-t tbody tr td img {
+
+    width: 65px;
+    height: 65px;
+    border: white 3px solid;
+    cursor: wait;
+}
+
+        /* - BUTTONS */
+
+.table-t tbody tr td input {
+
+    color: white;
+    border: none;
+    margin-left: 5px;
+    padding: 4px 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.table-t tbody tr td .view {
+
+    background-color: #03a9f4;
+}
+
+.table-t tbody tr td .delete {
+
+    background-color: #e91e63;
+}
+
+                /* - CELLS */
+
+.table-t tbody tr td {
+
+    background-color: #EEE;
+    text-align: center;
+    padding: 20px 0;
+}
